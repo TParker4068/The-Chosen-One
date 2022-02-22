@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9190d340177b98d4393f807c044db122, type: 3}
+  m_Name: Goblin
+  m_EditorClassIdentifier: 
+  name: Goblin
+  maxHP: 20
+  currentHP: 0
+  maxMana: 9999
+  currentMana: 0
+  attack: 7
+  defense: 6
+  magic: 2
+  resist: 3
+  speed: 6
+  hitChance: 0.95
+  hpPerLevel: 13
+  manaPerLevel: 0
+  attackPerLevel: 2.5
+  defensePerLevel: 1.2
+  magicPerLevel: 0.5
+  resistPerLevel: 0.9
+  speedPerLevel: 1.8
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 42fa1455d4ba3154dab2f02e3af92cbf, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 238aac7a76311984a9d8bbbecd495933, type: 2}
+    level: 0
+  Health: {fileID: 0}
+  animator: {fileID: -4672877630908911138, guid: 7265b99a9f0e94c42aa8153756545446, type: 3}
+  typesWeakTo: 04000000
+  typesResisted: 0100000002000000
+  sprite: {fileID: 0}
+  oddsOfTargeting: 14000000140000001400000028000000

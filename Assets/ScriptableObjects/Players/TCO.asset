@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6433c7429f159341b022d694b315af3, type: 3}
+  m_Name: TCO
+  m_EditorClassIdentifier: 
+  name: Chosen One
+  maxHP: 7
+  currentHP: 0
+  maxMana: 10
+  currentMana: 0
+  attack: 3
+  defense: 3
+  magic: 4
+  resist: 3
+  speed: 3
+  hitChance: 0.95
+  hpPerLevel: 4.8
+  manaPerLevel: 1.8
+  attackPerLevel: 0.6
+  defensePerLevel: 1.1
+  magicPerLevel: 1.2
+  resistPerLevel: 1.2
+  speedPerLevel: 0.8
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 42fa1455d4ba3154dab2f02e3af92cbf, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: e75413ded704b6d4abb4dec2b82dbae5, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 4aebf2dc8a98bff4c9595af5a7a3fa55, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 3a6e3086999589b41807ec27b2d35d50, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: e78f5124356280649ba4333cd4f1a685, type: 2}
+    level: 0
+  Health: {fileID: 0}
+  animator: {fileID: 0}
+  typesWeakTo: 
+  typesResisted: 05000000

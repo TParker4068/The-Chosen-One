@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c764e3415b5c4434cb08af4d89aecfe3, type: 3}
+  m_Name: Poison
+  m_EditorClassIdentifier: 
+  name: Poison
+  description: Poisons an enemy
+  attackDescription: 
+  manaCost: 8
+  baseDamage: 0
+  accuracy: 1
+  targetsEnemy: 1
+  targetsAlly: 0
+  targetsSelf: 0
+  targetsAll: 0
+  sfxValue: 1
+  animation: {fileID: 3771211498631395455, guid: 1a2425e9119ec984e90a8e9f4bad5060, type: 3}
+  isChargingMove: 0
+  turnsToCharge: 0
+  isSpeedMove: 0
+  chargingDescription: 
+  critChance: 5
+  damageType: 0
+  elementalType: 0

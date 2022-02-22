@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9190d340177b98d4393f807c044db122, type: 3}
+  m_Name: Skeleton
+  m_EditorClassIdentifier: 
+  name: Skeleton
+  maxHP: 20
+  currentHP: 0
+  maxMana: 9999
+  currentMana: 0
+  attack: 7
+  defense: 6
+  magic: 4
+  resist: 3
+  speed: 5
+  hitChance: 0.95
+  hpPerLevel: 11.5
+  manaPerLevel: 0
+  attackPerLevel: 2.3
+  defensePerLevel: 1.2
+  magicPerLevel: 1.3
+  resistPerLevel: 1.1
+  speedPerLevel: 1.4
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 42fa1455d4ba3154dab2f02e3af92cbf, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 0d56dfae13ff3f74a9df586cb0c4cb70, type: 2}
+    level: 0
+  Health: {fileID: 0}
+  animator: {fileID: 7102275038077115317, guid: c5f4436934986354a9ca4596466d665c, type: 3}
+  typesWeakTo: 06000000
+  typesResisted: 0200000005000000
+  sprite: {fileID: 0}
+  oddsOfTargeting: 0f0000000f0000000f00000037000000

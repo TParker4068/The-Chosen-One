@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6433c7429f159341b022d694b315af3, type: 3}
+  m_Name: Rogue
+  m_EditorClassIdentifier: 
+  name: Rogue
+  maxHP: 10
+  currentHP: 0
+  maxMana: 12
+  currentMana: 0
+  attack: 7
+  defense: 5
+  magic: 4
+  resist: 4
+  speed: 8
+  hitChance: 0.85
+  hpPerLevel: 7
+  manaPerLevel: 2
+  attackPerLevel: 2.2
+  defensePerLevel: 1.8
+  magicPerLevel: 0.7
+  resistPerLevel: 0.9
+  speedPerLevel: 3
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 42fa1455d4ba3154dab2f02e3af92cbf, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 0a9f21e0c87d5c548b8c0d9791b88052, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 0576430c7de6be74299a808fc37c35af, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: e66766350e6a9d740be500f7936a5665, type: 2}
+    level: 0
+  Health: {fileID: 0}
+  animator: {fileID: 0}
+  typesWeakTo: 0100000002000000
+  typesResisted: 04000000
